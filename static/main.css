@@ -55,8 +55,9 @@ h1{
 }
 
 .field.button{
-    margin-top: 7px;
-    align-items: center;
+    margin-top: 15px;
+    right: 30px;
+    align-items:flex-start;
 }
 /* #button{
     width: 100%;
@@ -66,6 +67,9 @@ h1{
 
 } */
 
+.predict{
+    margin-top: 30px;
+}
 input[type=submit] {
     
     box-sizing: border-box;
