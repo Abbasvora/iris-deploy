@@ -1,0 +1,76 @@
+
+h1{
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    padding: 2.5rem;
+    background-image: radial-gradient(circle, #eeaeca, #94bbe9);
+}
+#foot{
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    padding: 0.5rem;
+    background-image: radial-gradient(circle, #eeaeca, #94bbe9);
+}
+.col-4{
+    margin-top: 18px;
+}
+.row.last{
+    margin-top: -15px;
+}
+.range{
+    margin: auto;
+    margin-bottom: -10px;
+    height: 80px;
+    width: 275px;
+    padding: 0 65px 0 45px;
+}
+
+.range .sliderValue{
+    margin-top: 10%;
+}
+
+.range .field{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+}
+
+.range .field .value{
+    position: absolute;
+    font-size: 18px;
+    font-weight: 600;
+}
+.range .field .value.left{
+    top: 5px;
+    left: -115px;
+}
+.range .field .value.right{
+    right: -26px;
+}
+
+.field.button{
+    margin-top: 7px;
+    align-items: center;
+}
+/* #button{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+} */
+
+input[type=submit] {
+    
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    background-color: #3C91E6;
+    color: azure;
+}
